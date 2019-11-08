@@ -60,8 +60,8 @@ log = "0.4"
 mime = "0.3.7"
 mime_guess = "2.0"
 percent-encoding = "2.1"
-tokio = { version = "0.2.0", default-features = false, features = ["io", "tcp"] }
-tokio-executor = "0.2.0"
+tokio = { version = "0.2.0-alpha", default-features = false, features = ["io", "tcp"] }
+tokio-executor = "0.2.0-alpha"
 time = "0.1.42"
 
 # TODO: candidates for optional features
