@@ -60,8 +60,8 @@ log = "0.4"
 mime = "0.3.7"
 mime_guess = "2.0"
 percent-encoding = "2.1"
-tokio = { version = "=0.2.0-alpha.6", default-features = false, features = ["io", "tcp", "timer"] }
-tokio-executor = "=0.2.0-alpha.6"
+tokio = { version = "0.2.0-alpha.6", default-features = false, features = ["io", "tcp", "timer"] }
+tokio-executor = "0.2.0-alpha.6"
 time = "0.1.42"
 
 # TODO: candidates for optional features
@@ -74,7 +74,7 @@ serde_urlencoded = "0.6.1"
 ## default-tls
 hyper-tls = { version = "=0.4.0-alpha.4", optional = true }
 native-tls = { version = "0.2", optional = true }
-tokio-tls = { version = "=0.3.0-alpha.6", optional = true }
+tokio-tls = { version = "0.3.0-alpha.6", optional = true }
 
 ## rustls-tls
 #hyper-rustls = { version = "=0.18.0-alpha.1", optional = true }
